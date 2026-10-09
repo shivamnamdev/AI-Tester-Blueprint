@@ -41,6 +41,8 @@ This blueprint provides QA teams with:
 AITesterBlueprint/
 │
 ├── README.md                              # This file
+├── .agent/skills/                         # Reusable agent skills
+│   └── testing-stories-with-stlc/         # Evidence-based, story-level STLC
 │
 ├── chapter_01_foundation_model/           # Chapter 1: Foundation Model
 │   ├── ch_01_foundation_model.md          # Main overview
@@ -168,6 +170,10 @@ Requirements → Test Plan → Strategy → Test Design → Automation Code → 
 - **[Automation Tester Exercises](chapter_04_ai_powered_test_design_and_automation/learning_practice/ch_04_exercises_automation_tester.md)** - Playwright generation, Claude Code walkthrough, CI/CD suite
 - **[All Solutions](chapter_04_ai_powered_test_design_and_automation/learning_practice/ch_04_exercises_solutions.md)** - Complete solutions with grading rubric
 
+## 🧰 Agent Skills
+
+- **[Testing Stories with STLC](.agent/skills/testing-stories-with-stlc/SKILL.md)** - Analyze new stories and create traceable test plans, scenarios, and cases without inventing requirements.
+
 ---
 
 ## 📖 How to Use This Blueprint
@@ -202,4 +208,3 @@ This material is created for educational purposes by [The Testing Academy](https
 
 - **Website:** [thetestingacademy.com](https://thetestingacademy.com/)
 - **LinkedIn:** [Pramod Dutta](https://www.linkedin.com/in/pramoddutta/)
-
